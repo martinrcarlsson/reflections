@@ -4,3 +4,17 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	A middle layer where you can experiment before going live
 
+How can you use the staging area to make sure you have one commit per logical change?
+	Just add the files connected to a local change, and leave the others for later commits
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	experimental branch, another language, new features test. Branches lets you continue working on your master branch while experimenting on a branch without risking anything
+
+How do the diagrams help you visualize the branch structure?
+	parents and reachability. git checkout, detatched HEAD state, new branch with git checkout -b new_branch_name
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	one branch with all previous commits intact. ??
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	saves time, less faults
